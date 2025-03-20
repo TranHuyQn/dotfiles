@@ -208,3 +208,4 @@ run = "move-node-to-workspace N"
 
 [workspace-to-monitor-force-assignment]
 W = 'secondary'
+T = 'secondary'

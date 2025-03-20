@@ -13,5 +13,5 @@ return {
   opts = {
     -- fill any relevant options here
   },
-  vim.keymap.set("n", "<leader>b", ":Neotree filesystem reveal left<CR>", {})
+  vim.keymap.set("n", "<leader>b", ":Neotree toggle<CR>", { noremap = true, silent = true })
 }

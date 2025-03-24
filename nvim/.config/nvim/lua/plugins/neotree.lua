@@ -12,6 +12,15 @@ return {
   ---@type neotree.Config?
   opts = {
     -- fill any relevant options here
+    filesystem = {
+      filtered_items = {
+        visible = true
+      }
+    },
+    window = {
+      position = "left",
+      width = 30,
+    },
   },
   vim.keymap.set("n", "<leader>b", ":Neotree toggle<CR>", { noremap = true, silent = true })
 }

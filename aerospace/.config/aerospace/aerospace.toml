@@ -206,6 +206,14 @@ run = "move-node-to-workspace W"
 if.app-id = 'com.apple.Notes'
 run = "move-node-to-workspace N"
 
+[[on-window-detected]]
+if.app-id = 'com.monosnap.monosnap'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.FaceTime'
+run = 'layout floating'
+
 [workspace-to-monitor-force-assignment]
 W = 'secondary'
 T = 'secondary'

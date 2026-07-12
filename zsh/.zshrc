@@ -136,3 +136,30 @@ source $ZSH/oh-my-zsh.sh
 
 # Created by `pipx` on 2024-12-30 17:05:33
 export PATH="$PATH:/Users/tranhuy/.local/bin"
+
+
+# ---- Homebrew auto-backup ----
+export BREW_BACKUP_DIR="$HOME/dotfiles/homebrew"
+
+_brew_backup() {
+  [[ -d "$BREW_BACKUP_DIR" ]] || return 0
+  command brew bundle dump --force --describe --file="$BREW_BACKUP_DIR/Brewfile"
+  git -C "$BREW_BACKUP_DIR" add Brewfile
+  # chỉ commit khi Brewfile thực sự đổi (tránh commit rỗng)
+  if ! git -C "$BREW_BACKUP_DIR" diff --cached --quiet; then
+    git -C "$BREW_BACKUP_DIR" commit -qm "brew: update Brewfile ($(date '+%Y-%m-%d %H:%M'))"
+    # push ngầm, không chặn terminal; offline thì lần sau tự push
+    (git -C "$BREW_BACKUP_DIR" push -q 2>/dev/null &)
+  fi
+}
+
+brew() {
+  command brew "$@"          # chạy brew thật
+  local ret=$?
+  if [[ $ret -eq 0 ]]; then  # chỉ backup khi lệnh thành công
+    case "$1" in
+      install|uninstall|remove|rm|tap|untap) _brew_backup ;;
+    esac
+  fi
+  return $ret
+}

@@ -17,6 +17,8 @@ cask "clop"
 cask "figma"
 # Screenshot and screen recording tool
 cask "macshot"
+# Control your tools with a few keystrokes
+cask "raycast"
 # SSH client
 cask "termius"
 # Open-source code editor

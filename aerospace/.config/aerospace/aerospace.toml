@@ -175,6 +175,10 @@ if.app-id = 'com.googlecode.iterm2'
 run = "move-node-to-workspace T"
 
 [[on-window-detected]]
+if.app-id = 'com.apple.Terminal'
+run = "move-node-to-workspace T"
+
+[[on-window-detected]]
 if.app-id = 'com.apple.finder'
 run = "move-node-to-workspace E"
 

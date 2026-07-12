@@ -163,3 +163,4 @@ brew() {
   fi
   return $ret
 }
+export PATH="$HOME/.local/bin:$PATH"

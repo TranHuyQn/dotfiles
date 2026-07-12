@@ -13,6 +13,8 @@ cask "nikitabobko/tap/aerospace", trusted: true
 cask "claude-code"
 # Collaborative team software
 cask "figma"
+# Screenshot and screen recording tool
+cask "macshot"
 # SSH client
 cask "termius"
 # Open-source code editor

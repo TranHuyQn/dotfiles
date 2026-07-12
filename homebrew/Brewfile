@@ -13,6 +13,8 @@ cask "nikitabobko/tap/aerospace", trusted: true
 cask "claude-code"
 # Collaborative team software
 cask "figma"
+# SSH client
+cask "termius"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "alibaba-cloud-superapp-team.superapp-mini-app-plugin"

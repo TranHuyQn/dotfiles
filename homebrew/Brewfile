@@ -11,6 +11,8 @@ brew "tmux"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Terminal-based AI coding assistant
 cask "claude-code"
+# Image, video and clipboard optimiser
+cask "clop"
 # Collaborative team software
 cask "figma"
 # Screenshot and screen recording tool

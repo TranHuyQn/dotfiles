@@ -1,0 +1,15 @@
+tap "nikitabobko/tap"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Terminal multiplexer
+brew "tmux"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace", trusted: true
+# Terminal-based AI coding assistant
+cask "claude-code"
+# Open-source code editor
+cask "visual-studio-code"

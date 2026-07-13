@@ -1,6 +1,8 @@
 tap "nikitabobko/tap"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Manage multiple Node.js versions
+brew "nvm"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
 # Organize software neatly under a single directory tree (e.g. /usr/local)

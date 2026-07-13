@@ -19,6 +19,8 @@ cask "figma"
 cask "macshot"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Team communication and collaboration software
+cask "slack"
 # SSH client
 cask "termius"
 # Open-source code editor

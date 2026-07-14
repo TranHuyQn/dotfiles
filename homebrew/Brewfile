@@ -1,4 +1,6 @@
 tap "nikitabobko/tap"
+# Speech synthesizer that supports more than hundred languages and accents
+brew "espeak-ng"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Manage multiple Node.js versions
@@ -21,6 +23,8 @@ cask "figma"
 cask "macshot"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Open source virtual/remote desktop application
+cask "rustdesk"
 # Team communication and collaboration software
 cask "slack"
 # SSH client
@@ -82,3 +86,5 @@ vscode "vue.volar"
 vscode "wayou.vscode-todo-highlight"
 vscode "wix.vscode-import-cost"
 vscode "yzhang.markdown-all-in-one"
+npm "corepack"
+npm "yarn"

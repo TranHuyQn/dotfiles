@@ -9,8 +9,6 @@ brew "nvm"
 brew "python@3.12"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Easiest, most secure way to use WireGuard and 2FA
-brew "tailscale"
 # Terminal multiplexer
 brew "tmux"
 # AeroSpace is an i3-like tiling window manager for macOS

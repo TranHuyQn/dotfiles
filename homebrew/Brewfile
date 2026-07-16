@@ -35,6 +35,8 @@ cask "termius"
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Connect to Windows
+cask "windows-app"
 vscode "alibaba-cloud-superapp-team.superapp-mini-app-plugin"
 vscode "amiralizadeh9480.laravel-extra-intellisense"
 vscode "anthropic.claude-code"

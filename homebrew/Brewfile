@@ -3,6 +3,8 @@ tap "nikitabobko/tap"
 brew "espeak-ng"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# DevTools proxy for iOS devices
+brew "ios-webkit-debug-proxy"
 # Manage multiple Node.js versions
 brew "nvm"
 # Interpreted, interactive, object-oriented programming language
@@ -19,6 +21,8 @@ cask "claude-code"
 cask "clop"
 # Collaborative team software
 cask "figma"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
 # Screenshot and screen recording tool
 cask "macshot"
 # Control your tools with a few keystrokes

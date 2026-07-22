@@ -24,6 +24,8 @@ cask "figma"
 cask "font-hack-nerd-font"
 # Screenshot and screen recording tool
 cask "macshot"
+# Word processor
+cask "microsoft-word"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Open source virtual/remote desktop application

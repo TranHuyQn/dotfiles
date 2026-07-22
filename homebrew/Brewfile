@@ -22,8 +22,6 @@ cask "clop"
 # Collaborative team software
 cask "figma"
 cask "font-hack-nerd-font"
-# Free cross-platform office suite, fresh version
-cask "libreoffice"
 # Screenshot and screen recording tool
 cask "macshot"
 # Control your tools with a few keystrokes

@@ -1,4 +1,6 @@
 tap "nikitabobko/tap"
+# Incredibly fast JavaScript runtime, bundler, test runner, and package manager
+brew "bun"
 # Speech synthesizer that supports more than hundred languages and accents
 brew "espeak-ng"
 # Play, record, convert, and stream select audio and video codecs

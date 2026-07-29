@@ -34,6 +34,8 @@ cask "microsoft-word"
 cask "raycast"
 # Open source virtual/remote desktop application
 cask "rustdesk"
+# Web browser
+cask "safari-technology-preview"
 # Team communication and collaboration software
 cask "slack"
 # Mesh VPN based on WireGuard
@@ -102,5 +104,6 @@ vscode "wayou.vscode-todo-highlight"
 vscode "wix.vscode-import-cost"
 vscode "yzhang.markdown-all-in-one"
 npm "@playwright/cli"
+npm "@shopify/cli"
 npm "corepack"
 npm "yarn"

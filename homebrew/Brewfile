@@ -26,6 +26,8 @@ cask "clop"
 # Collaborative team software
 cask "figma"
 cask "font-hack-nerd-font"
+# GPU-based terminal emulator
+cask "kitty"
 # Screenshot and screen recording tool
 cask "macshot"
 # Spreadsheet software

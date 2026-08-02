@@ -9,6 +9,8 @@ brew "ffmpeg"
 brew "herdr"
 # DevTools proxy for iOS devices
 brew "ios-webkit-debug-proxy"
+# Remote terminal application
+brew "mosh"
 # Manage multiple Node.js versions
 brew "nvm"
 # Interpreted, interactive, object-oriented programming language

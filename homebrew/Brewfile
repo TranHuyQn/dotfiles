@@ -1,4 +1,5 @@
 tap "nikitabobko/tap"
+tap "ptrinh/viettelex"
 # Incredibly fast JavaScript runtime, bundler, test runner, and package manager
 brew "bun"
 # Speech synthesizer that supports more than hundred languages and accents
@@ -46,6 +47,8 @@ cask "slack"
 cask "tailscale-app"
 # SSH client
 cask "termius"
+# Vietnamese Telex input method
+cask "ptrinh/viettelex/viettelex", trusted: true
 # Open-source code editor
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
@@ -107,7 +110,6 @@ vscode "vue.volar"
 vscode "wayou.vscode-todo-highlight"
 vscode "wix.vscode-import-cost"
 vscode "yzhang.markdown-all-in-one"
-npm "@playwright/cli"
 npm "@shopify/cli"
 npm "corepack"
 npm "yarn"

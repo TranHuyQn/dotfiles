@@ -6,6 +6,8 @@ brew "bun"
 brew "espeak-ng"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# GitHub command-line tool
+brew "gh"
 # Agent multiplexer that lives in your terminal
 brew "herdr"
 # DevTools proxy for iOS devices

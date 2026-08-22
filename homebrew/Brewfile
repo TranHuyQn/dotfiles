@@ -1,3 +1,4 @@
+tap "anthropics/tap"
 tap "nikitabobko/tap"
 tap "ptrinh/viettelex"
 # Incredibly fast JavaScript runtime, bundler, test runner, and package manager
@@ -24,6 +25,8 @@ brew "stow"
 brew "tmux"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
+# CLI for the Claude Platform
+cask "anthropics/tap/ant", trusted: true
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Image, video and clipboard optimiser
@@ -37,6 +40,8 @@ cask "macshot"
 cask "microsoft-excel"
 # Word processor
 cask "microsoft-word"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Open source virtual/remote desktop application
